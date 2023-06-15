@@ -33,7 +33,7 @@ defmodule ExJsonSchema.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.6", only: :test},
-      {:poison, "~> 1.4", only: :test},
+      {:poison, "~> 5.0", only: :test},
       {:excoveralls, "~> 0.3", only: :test}
     ]
   end
